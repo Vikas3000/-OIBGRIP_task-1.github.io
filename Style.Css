@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Silkscreen&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top right, #0c0fe775, #ecf00c00);
+
+}
+
+.text {
+    position:absolute;
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    font-size: 100px;
+    background: rgba(27, 26, 26, 0.075); 
+    box-shadow: 50px 50px 50px #2773a517 !important;
+    backdrop-filter: blur(1px) !important;
+    z-index: 4;
+}
+.text span {
+    color:#e7e7e7;
+    box-shadow: 4px 4px 8px #0f0f0f !important;
+    backdrop-filter: blur(20px) !important;
+    margin: 5px;
+    background-color: rgba(47, 93, 245, 0.712);
+}
+.container {
+    width: 800px;
+    height: 680px;
+    margin: 0 auto;
+    position: relative;
+    top: 59%;
+    transform: translateY(-50%);
+    padding: 30px 60px;
+    box-shadow: 50px 40px 30px #110101;
+    background: linear-gradient(to top left, rgba(233, 199, 180, 0.781), #ffffff60);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    z-index: 4;
+}
+.button{
+  --s: 0.1em;  
+  --c: #5759e6de; 
+  
+  color: rgba(36, 4, 4, 0.514);
+  background: 
+    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+  transition: 0.4s;
+}
+
+.button{
+    width: 160px;
+    padding: 9px;
+    margin: 0px;
+    border-radius: 10px;
+    border: 2px solid rgba(65, 62, 243, 0.397);
+    cursor: pointer;
+    align-items: center;
+  }
+  .btns{
+    margin: 5px 5px 5px 5px;
+    
+  }
+  .btns input{
+    width: 652px;
+    margin: 5px;
+    font-size: 150px;
+    padding: auto;
+    border: 5px solid rgba(65, 62, 243, 0.397);
+    border-radius: 25px;
+    align-items: center;
+  }
+  .button {
+    font-size: 50px;
+  }
+  .button-plus{
+    font-size: 50px;
+    position: absolute;
+    border-radius: 10px;
+    height: 160px;
+    margin: 2px;
+    border: 2px solid rgba(65, 62, 243, 0.397);
+    right: 82px;
+    width: 156px;
+  }
+.btns :hover{
+ --_p:100%
+}
+  
+ 
+  .circle {
+    width: 600px;
+    height: 400px;
+    border-radius: 5px 168px 13px 149px;
+    background: linear-gradient(to top right, #6f79d6e5, rgba(229, 221, 148, 0.952));
+    position: absolute;
+}
+
+.c1 {
+    top: 240px;
+    left: 21%;
+}
+
+.c2 {
+    bottom: 57px;
+    right: 19%;
+}
